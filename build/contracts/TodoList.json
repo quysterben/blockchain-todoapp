@@ -1,0 +1,120 @@
+{
+  "contractName": "TodoList",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Migrations.sol\":\"TodoList\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Migrations.sol\":{\"keccak256\":\"0x7003a47af05ec1a6b2e4883dfb52dbe827effd667eb00dbdd9137060dceffc4b\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://ef15fa42d728d04c12ea7693eec3251007293188acb46e917a817591639379a8\",\"dweb:/ipfs/Qmdd6EQtFazWmtsBujFVS6wjqgB6Y9uernq6xn6LKo2qFR\"]}},\"version\":1}",
+  "bytecode": "0x60806040525f80553480156011575f80fd5b50603e80601d5f395ff3fe60806040525f80fdfea2646970667358221220338d7ccbbc69c77cb0219ca7271fa6e9c5241b8292c8bbbac48ee359d8b53cc164736f6c63430008150033",
+  "deployedBytecode": "0x60806040525f80fdfea2646970667358221220338d7ccbbc69c77cb0219ca7271fa6e9c5241b8292c8bbbac48ee359d8b53cc164736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "63:45:0:-:0;;;104:1;87:18;;63:45;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "63:45:0:-:0;;;;;",
+  "source": "//SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\ncontract TodoList {\n    uint taskCount = 0;\n}\n",
+  "sourcePath": "/home/quysterben/Workspace/block-chain-learning/eth-todo-list/contracts/Migrations.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Migrations.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        5
+      ]
+    },
+    "id": 6,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "38:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TodoList",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 5,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "TodoList",
+        "nameLocation": "72:8:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "mutability": "mutable",
+            "name": "taskCount",
+            "nameLocation": "92:9:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 5,
+            "src": "87:18:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "87:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "104:1:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 6,
+        "src": "63:45:0",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "38:71:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2023-12-25T06:47:14.493Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
